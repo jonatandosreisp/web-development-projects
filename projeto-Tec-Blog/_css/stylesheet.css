@@ -1,0 +1,241 @@
+/* Limpar formatações padrões */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/*
+**** Layout ****
+*/
+
+#header-area{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo-area, #menu-area{
+    padding: 10px;
+}
+
+#login-signin-area{
+    font-size: 1.2em;
+    text-align: right;
+}
+
+/*
+**** Formatações Gerais ****
+*/
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h3{
+    background-color: #CCC;
+    padding: 5px;
+    color: #4d4d4d;
+}
+
+a{
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+}
+
+hr{
+    color: #f2f2f2;
+    margin: 7px 0px;
+}
+
+.white{
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+/*
+**** Formatações de Links ****
+*/
+
+a:link, :visited{
+    color: white;
+}
+
+a:hover{
+    color: #f7b600;
+    background-color: white;
+}
+
+/*
+**** Principal ****
+*/
+
+#principal{
+    width: 900px;
+    margin: 15px auto;
+}
+
+#post-area{
+    float: left;
+}
+
+.posts{
+    padding: 15px;
+    background-color: white;
+    width: 610px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.post-title{
+    font-size: 1.5em;
+    color: #f7b600;
+}
+
+.post-date{
+    font-size: 0.8em;
+}
+
+.image-format{
+    width: 610px;
+    margin: 0px;
+}
+
+.see-more{
+    color:#f7b600;
+    padding: 1px;
+}
+
+#lateral-area-recent-posts{
+    background-color: white;
+    width: 230px;
+    float: right;
+}
+
+.recent-posts{
+    padding: 10px;
+}
+
+.recent-posts-text{
+    font-size: 0.8em;
+    padding: 2px 5px 0px 5px;
+    margin: 0px; 
+}
+
+.see-more-recent-posts{
+    color:#f7b600;
+    padding: 0px 5px;
+    margin: 0px;
+    font-size: 0.8em;
+}
+
+.border{
+    margin: 3px;
+    border-bottom: 1px dotted gray;
+}
+
+#lateral-area-categories{
+    margin-top: 20px;
+    background-color: white;
+    width: 230px;
+    float: right;
+}
+
+#categories{
+    margin: 10px;
+}
+
+.categories-itens{
+    padding: 1px;
+    display: block;
+    color:#f7b600;
+    font-size: 0.7;
+}
+
+#footer{
+    text-align: center;
+    background-color: #CCC;
+    padding: 15px;
+}
+
+#games-galery{
+    padding: 15px;
+    background-color: white;
+    width: 610px;
+    margin-bottom: 20px;
+    display: block;
+    float: left;
+}
+
+#games-images{
+    width: 220px;
+    display: inline;
+    float: left;   
+}
+
+.games{
+    width: 600px;
+    margin: 20px 0px;
+}
+
+.game-image{
+    width: 200px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+.game-title{
+    font-size: 2em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.game-description{
+    font-size: 0.9em;
+    float: left;
+    width: 370px;
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+#signin-form-area{
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+}
+
+#signin-form-area h1{
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+#signin-form-area-left{
+    font-size: 1em;
+    margin-left: 30px;
+    height: 300px;
+    width: 400px;
+    border-right: 1px solid black;
+    float: left;
+}
+
+#signin-form-area-right{
+    font-size: 1em;
+    margin-right: 30px;
+    height: 300px;
+    width: 400px;
+    float: right;
+}
