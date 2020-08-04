@@ -1,6 +1,8 @@
 html, body, #home{
     height: 100%;
     overflow-x: hidden;
+    min-height: 767.98px;
+    min-width: 575.98px;
 }
 
 body{
@@ -133,8 +135,12 @@ footer ul li{
     margin: 0 7px;
 }
 
+.footer-icon{
+    padding: 5px 0;
+}
+
 h1{
-    font-weight: 900;
+    font-weight: 650;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: white;
@@ -171,23 +177,31 @@ Extra small devices (portrait phones, menor que 576px)*/
         margin: 10px 15px;
         font-size: 1em;
     }
+    
+    .footer-item{
+        padding: 15px 0;
+    }
 }
 
 /*Small devices (landscape phones, 576px e maiores)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
     h1{
-        font-size: 3em;
+        font-size: 4em;
     }
     
     .btn-custom{
         margin: 10px 15px;
+    }
+    
+    .footer-item{
+        padding: 15px 0;
     }
 }
 
 /*Medium devices (tablets, 768px e maiores)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
      h1{
-        font-size: 6em;
+        font-size: 5em;
     }
     .btn-custom{
         font-size: 1em;
