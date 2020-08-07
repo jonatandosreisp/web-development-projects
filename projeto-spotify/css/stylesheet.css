@@ -1,8 +1,10 @@
 html, body, #home{
     height: 100%;
     overflow-x: hidden;
-    min-height: 767.98px;
-    min-width: 575.98px;
+}
+
+#home{
+    min-height: 575.98px;
 }
 
 body{
@@ -44,9 +46,9 @@ nav.navbar-transparent{
 
 .btn-custom{
     color: white;
-    border-radius: 500px; 
-    -webkit-border-radius: 500px; 
-    -moz-border-radius: 500px; 
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
 }
 
 .btn-roxo{
@@ -69,7 +71,7 @@ nav.navbar-transparent{
 
 .caixa{
     padding-top: 20px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
 
 #servicos{
@@ -153,7 +155,7 @@ h2{
     font-size: 3em;
     font-weight: 700;
     letter-spacing: -0.04em;
-    
+
 }
 
 h3{
@@ -165,19 +167,19 @@ h3{
 
 
 /* M E D I A   Q U E R I E S */
-       
+
 /*  ****************************************
 Extra small devices (portrait phones, menor que 576px)*/
 @media (max-width: 575.98px) {
     h1{
         font-size: 3em;
     }
-    
+
     .btn-custom{
         margin: 10px 15px;
         font-size: 1em;
     }
-    
+
     .footer-item{
         padding: 15px 0;
     }
@@ -188,11 +190,11 @@ Extra small devices (portrait phones, menor que 576px)*/
     h1{
         font-size: 4em;
     }
-    
+
     .btn-custom{
         margin: 10px 15px;
     }
-    
+
     .footer-item{
         padding: 15px 0;
     }
@@ -201,7 +203,7 @@ Extra small devices (portrait phones, menor que 576px)*/
 /*Medium devices (tablets, 768px e maiores)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
      h1{
-        font-size: 5em;
+        font-size: 4em;
     }
     .btn-custom{
         font-size: 1em;
@@ -211,7 +213,7 @@ Extra small devices (portrait phones, menor que 576px)*/
 /*Large devices (desktops, 992px e maiores)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
      h1{
-        font-size: 6em;
+        font-size: 5em;
     }
     .btn-custom{
        font-size:  1.3em;
@@ -221,7 +223,7 @@ Extra small devices (portrait phones, menor que 576px)*/
 /*Extra large devices (large desktops, 1200px  e maiores)*/
 @media (min-width: 1200px) {
     h1{
-        font-size: 6em;
+        font-size: 5em;
     }
     .btn-custom{
         font-size: 1.5em;
